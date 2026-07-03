@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+
+<div class="buttons">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('planet')">Planet</button>
+    <button onclick="filterImages('ocean')">Ocean</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('bird')">Bird</button>
+</div>
+
+<div class="gallery">
+
+    <div class="image planet">
+        <img src="planetimg1.jpg" onclick="openLightbox(0)">
+    </div>
+
+    <div class="image planet">
+        <img src="planetimg2.jpg" onclick="openLightbox(1)">
+    </div>
+
+    <div class="image planet">
+        <img src="planetimg3.jpg" onclick="openLightbox(2)">
+    </div>
+
+    <div class="image planet">
+        <img src="planetimg4.jpg" onclick="openLightbox(3)">
+    </div>
+
+    <div class="image planet">
+        <img src="planetimg5.jpg" onclick="openLightbox(4)">
+    </div>
+
+    <div class="image planet">
+        <img src="planetimg6.jpg" onclick="openLightbox(5)">
+    </div>
+
+    <div class="image planet">
+        <img src="planetimg7.jpg" onclick="openLightbox(6)">
+    </div>
+
+    <div class="image planet">
+        <img src="planetimg8.jpg" onclick="openLightbox(7)">
+    </div>
+
+    <div class="image planet">
+        <img src="planetimg9.jpg" onclick="openLightbox(8)">
+    </div>
+
+    <div class="image planet">
+        <img src="planetimg10.jpg" onclick="openLightbox(9)">
+    </div>
+
+    <div class="image ocean">
+        <img src="oceanimg1.jpg" onclick="openLightbox(10)">
+    </div>
+
+    <div class="image ocean">
+        <img src="oceanimg2.jpg" onclick="openLightbox(11)">
+    </div>
+
+    <div class="image ocean">
+        <img src="oceanimg3.jpg" onclick="openLightbox(12)">
+    </div>
+
+    <div class="image ocean">
+        <img src="oceanimg4.jpg" onclick="openLightbox(13)">
+    </div>
+
+    <div class="image ocean">
+        <img src="oceanimg5.jpg" onclick="openLightbox(14)">
+    </div>
+
+    <div class="image ocean">
+        <img src="oceanimg6.jpg" onclick="openLightbox(15)">
+    </div>
+
+    <div class="image ocean">
+        <img src="oceanimg7.jpg" onclick="openLightbox(16)">
+    </div>
+
+    <div class="image ocean">
+        <img src="oceanimg8.jpg" onclick="openLightbox(17)">
+    </div>
+
+    <div class="image ocean">
+        <img src="oceanimg9.jpg" onclick="openLightbox(18)">
+    </div>
+
+    <div class="image ocean">
+        <img src="oceanimg10.jpg" onclick="openLightbox(19)">
+    </div>
+
+    <div class="image nature">
+        <img src="natureimg1.jpg" onclick="openLightbox(20)">
+    </div>
+
+     <div class="image nature">
+        <img src="natureimg2.jpg" onclick="openLightbox(21)">
+    </div>
+
+     <div class="image nature">
+        <img src="natureimg3.jpg" onclick="openLightbox(22)">
+    </div>
+
+     <div class="image nature">
+        <img src="natureimg4.jpg" onclick="openLightbox(23)">
+    </div>
+
+     <div class="image nature">
+        <img src="natureimg5.jpg" onclick="openLightbox(24)">
+    </div>
+
+    <div class="image nature">
+        <img src="natureimg6.jpg" onclick="openLightbox(25)">
+    </div>
+
+    <div class="image nature">
+        <img src="natureimg7.jpg" onclick="openLightbox(26)">
+    </div>
+
+    <div class="image nature">
+        <img src="natureimg8.jpg" onclick="openLightbox(27)">
+    </div>
+
+    <div class="image nature">
+        <img src="natureimg9.jpg" onclick="openLightbox(28)">
+    </div>
+
+    <div class="image nature">
+        <img src="natureimg10.jpg" onclick="openLightbox(29)">
+    </div>
+
+    <div class="image bird">
+        <img src="birdsimg1.jpg" onclick="openLightbox(30)">
+    </div>
+
+    <div class="image bird">
+        <img src="birdsimg2.jpg" onclick="openLightbox(31)">
+    </div>
+
+    <div class="image bird">
+        <img src="birdsimg3.jpg" onclick="openLightbox(32)">
+    </div>
+
+    <div class="image bird">
+        <img src="birdsimg4.jpg" onclick="openLightbox(33)">
+    </div>
+
+    <div class="image bird">
+        <img src="birdsimg5.jpg" onclick="openLightbox(34)">
+    </div>
+
+    <div class="image bird">
+        <img src="birdsimg6.jpg" onclick="openLightbox(35)">
+    </div>
+
+    <div class="image bird">
+        <img src="birdsimg7.jpg" onclick="openLightbox(36)">
+    </div>
+
+</div>
+
+<div id="lightbox">
+
+<span class="close" onclick="closeLightbox()">&times;</span>
+
+<button class="prev" onclick="changeImage(-1)">&#10094;</button>
+
+<img id="lightbox-img">
+
+<button class="next" onclick="changeImage(1)">&#10095;</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
