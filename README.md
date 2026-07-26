@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project is a **Responsive Image Gallery Website** developed using **HTML, CSS, and JavaScript**. It allows users to browse images organized into different categories, filter images by category, and view them in a full-screen lightbox with previous and next navigation.
+This project is a **Responsive Image Gallery** developed using **HTML, CSS, and JavaScript**. It allows users to browse images organized into different categories, filter images by category, and view them in a full-screen lightbox with previous and next navigation.
 
 The gallery is designed with a modern user interface and is fully responsive, making it suitable for desktop, tablet, and mobile devices.
 
@@ -22,9 +22,9 @@ The gallery is designed with a modern user interface and is fully responsive, ma
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
+* HTML
+* CSS
+* JavaScript
 
 ---
 
