@@ -1,5 +1,4 @@
-# Image_Gallery-CodeAlpha-
-# 🖼️ Responsive Image Gallery Website
+# Responsive Image Gallery Website
 
 ## 📌 Project Overview
 
